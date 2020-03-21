@@ -40,7 +40,7 @@ class App(tk.Tk):
 
     def get_no_of_equations(self):
         self.n = int(self.noentry.get())
-        print(f"N = {self.n}")
+        # print(f"N = {self.n}")
         self.step2()
 
     def create_new(self):
@@ -103,7 +103,7 @@ class App(tk.Tk):
         # self.display_solution()
 
     def get_equations(self):
-        print(len(self.eq_entry))
+        # print(len(self.eq_entry))
         for entry in self.eq_entry:
             self.equations.append(entry.get())
 

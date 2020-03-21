@@ -70,7 +70,7 @@ def check_equal_to_constant(input):
     for i in range(len(input)):
         if input[i] == '=':
             flag = i
-            print('flag = {}'.format(flag))
+            # print('flag = {}'.format(flag))
             break
     for i in range(flag + 1, len(input)):
         if not input[i].isdigit():
@@ -81,7 +81,7 @@ def check_equal_to_constant(input):
 
 def validata_warn(equations, warnings):
     f = True
-    print(len(equations), len(warnings))
+    # print(len(equations), len(warnings))
 
     for i in range(len(equations)):
         equation = equations[i]
