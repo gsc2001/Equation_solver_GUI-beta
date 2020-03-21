@@ -23,6 +23,12 @@ At last,
 
 Thanks for viewing
 
+### Running
+Just download and extract the whole repository and type following command in
+terminal
+    
+    python3 main.py
+    
 #### Contact
 Email : gurkirat.singh@students.iiit.ac.in
 
