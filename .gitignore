@@ -1,3 +1,5 @@
 __pycache__
 .idea
-testing.py
+base/build
+base/_equation_solver_base.cpython-37m-x86_64-linux-gnu.so
+base/equation_solver_base_wrap.cxx
