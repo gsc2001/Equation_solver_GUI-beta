@@ -15,7 +15,7 @@ def get_eqns():
 
 def convert_equations(equations):
     for i in range(len(equations)):
-        if equations[i][0] == '-':
+        if equations[i][0] == '-' and equations[i][1].isalpha():
             equations[i] = '-1' + equations[i][1:]
     print(equations)
     eqs_converted = "_".join(equations)
